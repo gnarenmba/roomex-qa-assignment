@@ -8,6 +8,25 @@
 * JDK
 * VisualStudioCode
 
+#### Tech stacks:
+[![WebdriverIO](https://img.shields.io/badge/-WebdriverI/O-EA5906?logo=WebdriverIO&logoColor=white)](https://webdriver.io/)
+[![TypeScript](https://img.shields.io/badge/-TypeScript-%233178C6?logo=Typescript&logoColor=black)](https://www.typescriptlang.org/)
+[![Mocha](https://img.shields.io/badge/-Mocha-%238D6748?logo=Mocha&logoColor=white)](https://mochajs.org/)
+[![CucumberIO](https://img.shields.io/badge/-Cucumber.io-brightgreen?logo=cucumber&logoColor=white)](https://cucumber.io/)
+[![ChaiJS](https://img.shields.io/badge/-ChaiJS-FEDABD?logo=Chai&logoColor=black)](https://www.chaijs.com/)
+[![SuperTest](https://img.shields.io/badge/-SuperTest-07BA82?logoColor=white)](https://github.com/visionmedia/supertest)
+
+#### Features
+    - Web and API Testing
+    - Cucumber BDD framework
+    - Page Object Design pattern
+    - Screenshot in report for failed tests
+    - Use of types for method params optimization
+    - Improved import statement using tsconfig path
+    
+#### Framework Structure
+    <img width="224" alt="project_structure" src="https://user-images.githubusercontent.com/11722393/197422124-aca62574-4ae3-4ec9-9755-96e5e47a66c8.png">
+
 #### Clone Repository
 ```bash
 1. git clone PROVIDE URL
@@ -55,35 +74,12 @@ Generate Report:
 yarn report:allure
 ```
 
-
------
-
-#### Features
-    - Web and API Testing
-    - Cucumber BDD framework
-    - Page Object Design pattern
-    - Screenshot in report for failed tests
-    - Use of types for method params optimization
-    - Improved import statement using tsconfig path
-
-#### Framework Structure
-    ![ScreenShot](docs/project_structure.png)
+----
 
 #### Test Reports
 
 ### UI Test Report
-    ![ScreenShot](docs/UI_Test_Report.png)
+   <img width="953" alt="UI_Test_Report" src="https://user-images.githubusercontent.com/11722393/197422018-91adc226-5b42-4004-bb8e-25446240ae48.png">
 
 #### API Test Report
-    ![ScreenShot](docs/API_Test_Report.png)
-
-
-
-#### Tech stacks:
-[![WebdriverIO](https://img.shields.io/badge/-WebdriverI/O-EA5906?logo=WebdriverIO&logoColor=white)](https://webdriver.io/)
-[![TypeScript](https://img.shields.io/badge/-TypeScript-%233178C6?logo=Typescript&logoColor=black)](https://www.typescriptlang.org/)
-[![Mocha](https://img.shields.io/badge/-Mocha-%238D6748?logo=Mocha&logoColor=white)](https://mochajs.org/)
-[![CucumberIO](https://img.shields.io/badge/-Cucumber.io-brightgreen?logo=cucumber&logoColor=white)](https://cucumber.io/)
-[![ChaiJS](https://img.shields.io/badge/-ChaiJS-FEDABD?logo=Chai&logoColor=black)](https://www.chaijs.com/)
-[![SuperTest](https://img.shields.io/badge/-SuperTest-07BA82?logoColor=white)](https://github.com/visionmedia/supertest)
-
+<img width="947" alt="API_Test_Report" src="https://user-images.githubusercontent.com/11722393/197422039-5db3270e-2dad-468c-9dc4-298553655b5b.png">
