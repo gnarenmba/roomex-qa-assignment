@@ -27,8 +27,8 @@
 
 #### Clone Repository
 ```bash
-1. git clone PROVIDE URL
-2. Navigate to `RoomexQAAssignment`
+1. git clone https://github.com/gnarenmba/roomex-qa-assignment.git
+2. Navigate to `RoomexQAAssignment
 ```
 -----
 
