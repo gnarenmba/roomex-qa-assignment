@@ -86,3 +86,5 @@ yarn report:allure
 
 ##### API Test Report
    <img width="947" alt="API_Report" src="https://user-images.githubusercontent.com/11722393/197422344-ee24877a-3077-48ae-8bb7-3b1d6659f7f6.png"
+        
+-----
