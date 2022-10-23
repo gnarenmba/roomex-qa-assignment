@@ -42,13 +42,4 @@ export default class BasePage {
         await element.selectByVisibleText(text)
         logStep(`Selected Element: ${await element.selector} by visible text: ${text}`);
     }
-
-    protected async clickOnMatchingText(elements: WebdriverIOElements, expectedText: string) {
-        await elements.forEach(async element => {
-            if (await element.getText() === expectedText) {
-                await element.click();
-                logStep(`Clicked on matching text: ${expectedText}`);
-            }
-        })
-    }
 }

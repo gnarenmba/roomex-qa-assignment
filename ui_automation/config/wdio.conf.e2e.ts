@@ -37,18 +37,6 @@ export const config: WebdriverIO.Config = {
     specFileRetries: 0,
     specFileRetriesDelay: 0,
     specFileRetriesDeferred: false,
-    // reporters: ['spec',
-    //     ['cucumberjs-json', {
-    //         jsonFolder: CUCUMBER_JSON_REPORT_DIR,
-    //         language: 'en',
-    //     }],
-    //     ['json', {
-    //         outputFileFormat: (opts: any) => {
-    //             return `results-${opts.cid}.${opts.capabilities}.json`
-    //         }
-    //     }]
-    // ],
-
     reporters: [['allure', {
         outputDir: 'allure-results',
         disableWebdriverStepsReporting: true,

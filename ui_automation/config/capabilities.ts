@@ -34,11 +34,5 @@ export const multipleBrowserCapabilities = [
         browserName: 'MicrosoftEdge',
         acceptInsecureCerts: true,
         'ms:edgeOptions': RUN_MODE === "LOCAL" ? browserOptions : browserOptionsHeadless
-    },
-    // {
-    //     maxInstances: 1,
-    //     browserName: 'firefox',
-    //     acceptInsecureCerts: true,
-    //     'moz:firefoxOptions':  RUN_MODE === "LOCAL" ? browserOptions : browserOptionsHeadless
-    // }
+    }
 ]

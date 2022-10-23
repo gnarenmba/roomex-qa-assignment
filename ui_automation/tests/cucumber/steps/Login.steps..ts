@@ -1,6 +1,5 @@
 import { Given, Then, When } from '@cucumber/cucumber';
 import loginPage from '@UIPages/login.page';
-import securePage from '@UIPages/password_reset.page';
 import FrameworkConstants from '@UIStatic/FrameworkConstants';
 
 Given(/^I open the roomex login page$/, async () => {
@@ -23,17 +22,6 @@ Then(/^I should see a invalid (email|password) error message$/, async (errorFiel
         case "email": await expect(loginPage.invalidEmailError).toHaveTextContaining(FrameworkConstants.INVALID_EMAIL_FAILED_MSG);
             break;
         case "password": await expect(loginPage.invalidPasswordError).toHaveTextContaining(FrameworkConstants.INVALID_PASSWORD_FAILED_MSG);
-            break;
-    }
-});
-
-Then(/^I should see a (success|failed) flash message$/, async (status: string) => {
-    await expect(securePage.flashAlert).toBeExisting();
-
-    switch (status) {
-        case "success": await expect(securePage.flashAlert).toHaveTextContaining(FrameworkConstants.INVALID_EMAIL_FAILED_MSG);
-            break;
-        case "failed": await expect(securePage.flashAlert).toHaveTextContaining(FrameworkConstants.INVALID_PASSWORD_FAILED_MSG);
             break;
     }
 });

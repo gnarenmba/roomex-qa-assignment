@@ -4,7 +4,7 @@ class PasswordResetPage extends Page {
 
     get inputEmail() { return $('input[type="email"]') }
     get btnSubmit() { return $('button[type="submit"]') }
-    get btnResetPwd() { return $('button[type="submit"]') }
+    get btnResetPwd() { return $('rx-button[data-qa="reset-password-submit-button"]') }
     get invalidEmailError() { return $('rx-alert[type="danger"]') }
 
     async enterInvalidEmail(email: string) {

@@ -7,5 +7,3 @@ Feature: Login feature for roomex app
         When I click the login button
         Then I should see a invalid email error message
         And I should see a invalid password error message
-
-# Add test for another language
